@@ -9,6 +9,7 @@ public class apps {
  * @param args
  * //@throws InterruptedException
  */
+
 public static void main(String args[]) throws InterruptedException{
 
     Scanner sn = new Scanner(System.in);
