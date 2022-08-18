@@ -57,8 +57,6 @@ def accion2():
     sleep(2)
     print("Descargando visual studio code")
     sleep(2)
-    os.system("apt install software-properties-common apt-transport-https wget && wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -"),
-    os.system(add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"), 
 
 
 def accion3():
