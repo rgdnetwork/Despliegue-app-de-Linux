@@ -35,9 +35,9 @@ def generar_menu(opciones, opcion_salida):
 def menu_principal():
     opciones = {
         '1': ('JDK (Java Development Kit)', accion1),
-        '2': ('Ngrok', accion2),
-        '3': ('Opción 3', accion3),
-        '4': ('Opción 4', accion4),
+        '2': ('Visual Studio Code', accion2),
+        '3': ('Ngrok', accion3),
+        '4': ('Docker', accion4),
         '5': ('Salir', salir)
     }
 
@@ -55,16 +55,25 @@ def accion1():
 def accion2():
     print('Has elegido la opción 2')
     sleep(2)
-    print("Descargando visual studio code")
+    print("Descargando Visual Studio Code")
     sleep(2)
-
+    os.system(list("sudo apt install snapd -y && sudo snap install --classic code"))
+    
 
 def accion3():
     print('Has elegido la opción 3')
+    sleep(2)
+    print("Descargando Ngrok")
+    sleep(2)
+    os.system(list("sudo apt install snapd -y && snap install ngrok"))
 
 
 def accion4():
     print('Has elegido la opción 4')
+    sleep(2)
+    print("Descargando Docker")
+    sleep(2)
+    os.system("sudo apt install docker.io -y")
 
 
 def salir():
