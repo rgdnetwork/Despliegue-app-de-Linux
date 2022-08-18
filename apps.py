@@ -35,12 +35,13 @@ def generar_menu(opciones, opcion_salida):
 def menu_principal():
     opciones = {
         '1': ('JDK (Java Development Kit)', accion1),
-        '2': ('Opción 2', accion2),
+        '2': ('Ngrok', accion2),
         '3': ('Opción 3', accion3),
-        '4': ('Salir', salir)
+        '4': ('Opción 4', accion4),
+        '5': ('Salir', salir)
     }
 
-    generar_menu(opciones, '4')
+    generar_menu(opciones, '5')
 
 
 def accion1():
@@ -53,10 +54,16 @@ def accion1():
 
 def accion2():
     print('Has elegido la opción 2')
+    sleep(2)
+    print("Descargando ngrok")
 
 
 def accion3():
     print('Has elegido la opción 3')
+
+
+def accion4():
+    print('Has elegido la opción 4')
 
 
 def salir():
