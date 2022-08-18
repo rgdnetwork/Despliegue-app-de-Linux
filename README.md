@@ -5,7 +5,7 @@ Por lo que ejecutaremos el siguiente comando, ```sudo su``` y pondremos la contr
 
 ## ¿Cómo descargar python en nuestra máquina?
 ### ***Instalación de python***
-Para instalar python usaremos el siguiente comando, ```apt install python3```
+Para instalar [python](https://github.com/rgdnetwork/Entorno-Linux/blob/Despliegue-apps-de-Linux/apps.py) usaremos el siguiente comando, ```apt install python3```
 
 ### ***Ejecutar Script***
 Para ejecutar el script apps.py deberemos de usar el siguiente comando ```python3 apps.python```
