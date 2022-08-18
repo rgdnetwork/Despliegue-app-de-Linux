@@ -48,7 +48,7 @@ def accion1():
     sleep(2)
     print("Descargando JDK")
     sleep(2)
-    os.system("apt update && apt upgrade -y && apt-get install openjdk-17-jdk && java --version")
+    os.system("apt update && apt upgrade -y && apt-get install openjdk-17-jdk -y && java --version")
 
 
 def accion2():
